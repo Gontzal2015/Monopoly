@@ -67,7 +67,6 @@
 		<sonar.login>53bda552b6641cf8001148d93a58302ff686a2e7</sonar.login>
 	</properties>
 
-	<!-- https://mvnrepository.com/artifact/junit/junit -->
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -81,14 +80,12 @@
 			<version>1.4</version>
 		</dependency>
 
-		<!-- API JAXB -->
 		<dependency>
 			<groupId>jakarta.xml.bind</groupId>
 			<artifactId>jakarta.xml.bind-api</artifactId>
 			<version>2.3.2</version>
 		</dependency>
 
-		<!-- Runtime -->
 		<dependency>
 			<groupId>org.glassfish.jaxb</groupId>
 			<artifactId>jaxb-runtime</artifactId>
@@ -96,14 +93,12 @@
 		</dependency>
 
 
-		<!-- API JAX-WS -->
 		<dependency>
 			<groupId>jakarta.xml.ws</groupId>
 			<artifactId>jakarta.xml.ws-api</artifactId>
 			<version>2.3.2</version>
 		</dependency>
 
-		<!-- Runtime -->
 		<dependency>
 			<groupId>com.sun.xml.ws</groupId>
 			<artifactId>jaxws-rt</artifactId>
@@ -128,7 +123,6 @@
 			<version>1.1</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy-agent -->
 		<dependency>
 			<groupId>net.bytebuddy</groupId>
 			<artifactId>byte-buddy-agent</artifactId>
@@ -136,13 +130,11 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/net.bytebuddy/byte-buddy -->
 		<dependency>
 			<groupId>net.bytebuddy</groupId>
 			<artifactId>byte-buddy</artifactId>
 			<version>1.10.10</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.objenesis/objenesis-tck -->
 		<dependency>
 			<groupId>org.objenesis</groupId>
 			<artifactId>objenesis-tck</artifactId>
@@ -150,7 +142,6 @@
 		</dependency>
 
 
-		<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
